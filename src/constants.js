@@ -104,7 +104,7 @@ export const SkillsInfo = [
       { name: 'Springboot', logo: springbootLogo },
       { name: 'Django', logo: djangoLogo },
       { name: 'Fast API', logo: fastapiLogo },
-      { name: 'Node JS', logo: nodejsLogo },
+      //{ name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },

@@ -179,7 +179,7 @@ const enTranslation = {
     "options": {
       "live" : "View Live",
       "code" : "View Code",
-      "seeMore" : "See More",
+      "seeMore" : "View More",
     },
     "active" : "Active",
     "all" : "All",

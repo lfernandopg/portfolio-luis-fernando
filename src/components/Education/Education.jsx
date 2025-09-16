@@ -190,30 +190,33 @@ function Education() {
 
                                     {/* Grade with progress bar - Responsive */}
                                     <div className="mb-4">
-                                        <div className="flex justify-between items-center mb-2">
-                                            <span className="text-sm text-gray-400">{t(`education.academicPerformance`)}:</span>
-                                            {
-                                            edu.completed ? null :
-                                            
-                                            (<div> 
-                                                <span className="text-sm text-gray-400 mr-2">{t(`education.estimatedCompletionDate`)}:</span>                                    
-                                                <span className="text-sm font-bold text-color-primary">
-                                                    {t(`education.institutions.${edu.key}.estimatedCompletionDate`)}
-                                                </span>
-                                            </div>)
-                                            }
-                                        </div>
-                                        <div className="w-1/3 bg-gray-700/50 rounded-full h-2 overflow-hidden">
-                                            <div 
-                                                className={`h-full bg-gradient-to-r from-color-primary to-color-secundary rounded-full transition-all duration-1000 ease-out ${
-                                                    visibleItems.has(index.toString()) 
-                                                        ? index === 0 ? 'w-[95%]' : index === 1 ? 'w-[88%]' : 'w-[92%]'
-                                                        : 'w-0'
-                                                }`}
-                                                style={{ transitionDelay: `${(index * 200) + 300}ms` }}
-                                            >
-                                                <div className="h-full w-full bg-gradient-to-r from-transparent via-white/30 to-transparent animate-pulse"></div>
+                                        <div className="flex flex-col justify-start items-start sm:flex-row sm:justify-between sm:items-center mb-2 space-y-2 sm:space-y-0">
+                                            <div className="flex flex-col w-full sm:w-auto">
+                                                <span className="text-sm text-gray-400">{t(`education.academicPerformance`)}:</span>
+                                                <div className="w-full bg-gray-700/50 rounded-full h-2 overflow-hidden mt-2 sm:mt-0">
+                                                    <div 
+                                                        className={`h-full bg-gradient-to-r from-color-primary to-color-secundary rounded-full transition-all duration-1000 ease-out ${
+                                                            visibleItems.has(index.toString()) 
+                                                                ? index === 0 ? 'w-[95%]' : index === 1 ? 'w-[88%]' : 'w-[92%]'
+                                                                : 'w-0'
+                                                        }`}
+                                                        style={{ transitionDelay: `${(index * 200) + 300}ms` }}
+                                                    >
+                                                        <div className="h-full w-full bg-gradient-to-r from-transparent via-white/30 to-transparent animate-pulse"></div>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            {
+                                                edu.completed ? null :
+                                                (
+                                                    <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:w-auto">
+                                                        <span className="text-sm text-gray-400 sm:mr-2">{t(`education.estimatedCompletionDate`)}:</span>
+                                                        <span className="text-sm font-bold text-color-primary">
+                                                            {t(`education.institutions.${edu.key}.estimatedCompletionDate`)}
+                                                        </span>
+                                                    </div>
+                                                )
+                                            }
                                         </div>
                                     </div>
 
