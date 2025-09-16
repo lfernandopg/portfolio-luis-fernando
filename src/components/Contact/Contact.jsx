@@ -132,20 +132,20 @@ function Contact() {
         value: myEmail,
       }
     ];
-  
-    function InfoItem({ icon, title, value }) {
-      return (
-          <div className="flex items-center group">
-          <div className="w-12 h-12 bg-color-primary/20 rounded-full flex items-center justify-center mr-4 group-hover:bg-color-primary/30 transition-colors">
-              {icon}
-          </div>
-          <div>
-              <p className="text-gray-400 text-sm">{title}</p>
-              <p className="text-white font-semibold">{value}</p>
-          </div>
-          </div>
-      );
-    }
+
+function InfoItem({ icon, title, value }) {
+  return (
+    <div className="flex flex-col md:flex-row items-center group">
+      <div className="w-12 h-12 bg-color-primary/20 rounded-full flex items-center justify-center mb-2 md:mb-0 md:mr-4 group-hover:bg-color-primary/30 transition-colors">
+        {icon}
+      </div>
+      <div className="text-center md:text-left">
+        <p className="text-gray-400 text-sm">{title}</p>
+        <p className="text-white font-semibold">{value}</p>
+      </div>
+    </div>
+  );
+}
 
   return (
     <section

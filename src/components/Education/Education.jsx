@@ -125,14 +125,14 @@ function Education() {
                                             edu.completed ? (   
                                                 <>
                                                 <div className="w-2 sm:w-3 h-2 sm:h-3 bg-green-500 rounded-full animate-pulse"></div>
-                                                <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full hidden sm:inline">
+                                                <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full sm:inline">
                                                     {t("education.statusEdu.completed")}
                                                 </span>
                                                 </>
                                             ) : (       
                                                 <>                               
                                                 <div className="w-2 sm:w-3 h-2 sm:h-3 bg-yellow-400 rounded-full animate-pulse"></div>
-                                                <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full hidden sm:inline">
+                                                <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full sm:inline">
                                                     {t("education.statusEdu.inProgress")}
                                                 </span>
                                                 </> 

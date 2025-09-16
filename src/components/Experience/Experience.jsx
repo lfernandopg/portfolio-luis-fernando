@@ -125,7 +125,7 @@ function Experience() {
                                     {/* Status indicator - Responsive */}
                                     <div className="absolute -top-2 sm:-top-3 left-3 sm:left-4 flex items-center space-x-1 sm:space-x-2">
                                         <div className={`w-2 sm:w-3 h-2 sm:h-3 rounded-full animate-pulse ${index === 0 ? 'bg-green-400' : 'bg-blue-400'}`}></div>
-                                        <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full hidden sm:inline">
+                                        <span className="text-xs text-gray-300 bg-gray-800/80 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full sm:inline">
                                             {experience.current ? t(`experience.statusJob.current`) : t(`experience.statusJob.completed`)}
                                         </span>
                                     </div>
