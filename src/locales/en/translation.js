@@ -18,7 +18,7 @@ const enTranslation = {
     }, 
     "description": "Passionate about transforming ideas into smart products. Experienced in designing scalable applications and automating processes. My focus is on building robust software solutions, from the backend to the frontend, integrating AI to enhance efficiency and generate measurable value.",
     "cvUrl": "https://docs.google.com/document/d/18iuE5EYUa96mnuMMLbIPUXln-GFmtpQTkLuLkf9CX50/edit?usp=sharing",
-    "downloadCv": "DOWNLOAD CV",
+    "downloadCv": "DOWNLOAD RESUME",
     "stats": {
       "projects": "Proyectos",
       "experience": "Años",
