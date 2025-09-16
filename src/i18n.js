@@ -1,27 +1,29 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslation from './locales/en/translation';
 import esTranslation from './locales/es/translation';
 
+// Detectar idioma del navegador
+const savedLang = localStorage.getItem('i18nextLng'); // idioma guardado
+const browserLang = navigator.language || navigator.userLanguage; // ejemplo: "es-ES"
+const language = savedLang || (browserLang.startsWith('es') ? 'es' : 'en');
+
 i18n
   .use(initReactI18next)
-  .use(LanguageDetector)
   .init({
     resources: {
       en: { translation: enTranslation },
       es: { translation: esTranslation },
     },
-    fallbackLng: 'en', // Idioma por defecto si no se detecta
-    detection: {
-      // Orden de prioridad para detectar el idioma
-      order: ['localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
-      // Nombre de la clave en localStorage
-      caches: ['localStorage'],
-    },
-    interpolation: {
-      escapeValue: false,
-    },
+    lng: language, // idioma inicial
+    fallbackLng: 'en',
+    interpolation: { escapeValue: false },
   });
+
+// Función para cambiar idioma y guardarlo
+export const changeLanguage = (lng) => {
+  i18n.changeLanguage(lng);
+  localStorage.setItem('i18nextLng', lng);
+};
 
 export default i18n;
