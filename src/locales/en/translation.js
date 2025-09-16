@@ -123,8 +123,8 @@ const enTranslation = {
             "Interdisciplinary projects: collaboration on technology solutions with social relevance."
           ],
           "skillsAcquired": [
-            "AI and Machine Learning (including Transformers and NLP)",
-            "Advanced Programming (Python, Java, C++)",
+            "AI and Machine Learning",
+            "Advanced Programming",
             "Algorithms and Data Structures",
             "Databases (SQL, NoSQL)",
             "Agile Software Engineering",
