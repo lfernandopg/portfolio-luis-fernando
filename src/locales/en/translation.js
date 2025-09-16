@@ -50,9 +50,9 @@ const enTranslation = {
         "duration": getDurationByKey(experiences, "tpotgroup", "en"),
         "desc": "Designed and implemented AI solutions to automate creative content and optimize customer interactions. Utilized ML and NLP within agile teams to enhance performance and scalability.",
         "achievements": [
-          "Integrated AI APIs (ChatGPT, Eleven Labs) into 4 web applications using Django, FastAPI, and Express.js, leveraging RAG and custom prompts: reduced manual intervention by 30%.",
+          "Integrated AI APIs (ChatGPT, Eleven Labs) into 4 web applications using Django, FastAPI, and Express.js, leveraging RAG, LangChain and custom prompts: reduced manual intervention by 30%.",
           "Fine-tuned a GPT-2 model to generate song lyrics, integrated with Suno: lowered creative costs by 20%.",
-          "Developed a chatbot with LangChain and RAG: manages 1,000+ queries/day with a 70% automatic resolution rate, boosting support efficiency."
+          "Developed a chatbot with LangChain and RAG: manages 500+ queries/day with a 70% automatic resolution rate, boosting support efficiency."
         ]
       },
       "nucleoenii": {

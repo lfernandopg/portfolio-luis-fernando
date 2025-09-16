@@ -46,6 +46,7 @@ import scikitlearnLogo from './assets/tech_logo/scikit-learn.png';
 import numpyLogo from './assets/tech_logo/numpy.png';
 import pandasLogo from './assets/tech_logo/pandas.png';
 import n8nLogo from './assets/tech_logo/n8n.png';
+import langchainLogo from './assets/tech_logo/langchain.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -90,11 +91,11 @@ export const SkillsInfo = [
   {
     key: 'frontend',
     skills: [
-      { name: 'React JS', logo: reactjsLogo },
+      { name: 'React', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      //{ name: 'Bootstrap', logo: bootstrapLogo },
       { name: 'jQuery', logo: jqueryLogo },
     ],
   },
@@ -105,10 +106,11 @@ export const SkillsInfo = [
       { name: 'Django', logo: djangoLogo },
       { name: 'Fast API', logo: fastapiLogo },
       //{ name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'Next.js', logo: nextjsLogo },
+      { name: 'Express.js', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+      //{ name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -142,7 +144,8 @@ export const SkillsInfo = [
       { name: 'Keras', logo: kerasLogo },
       { name: 'NumPy', logo: numpyLogo },
       { name: 'Pandas', logo: pandasLogo },
-      { name: 'n8n', logo: n8nLogo },
+      //{ name: 'n8n', logo: n8nLogo },
+      { name: 'LangChain', logo: langchainLogo },
     ],
   },
 ];
@@ -159,11 +162,12 @@ export const SkillsInfo = [
       skills: [
         "LangChain",
         "PyTorch",
+        "LLM",
         "APIs AI",
         "NPL",
         "RAG",
-        "Node JS",
-        "ExpressJS",
+        "Node.js",
+        "Express.js",
         "MongoDB",
       ],
     },
@@ -176,7 +180,7 @@ export const SkillsInfo = [
       startDate: '2023-08-15',
       endDate: '2024-09-25',
       skills: [
-        "ReactJS",
+        "React",
         "Angular",
         "Tailwind CSS",
         "Django",
