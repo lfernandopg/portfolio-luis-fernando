@@ -18,7 +18,7 @@ const esTranslation = {
       "skills" : ["Desarrollador Fullstack", "Ingeniero de IA"]
     }, 
     "description": "Apasionado por transformar ideas en productos inteligentes. Con experiencia en el diseño de aplicaciones escalables y automatización de procesos. Mi enfoque es construir soluciones de software robustas, desde el backend hasta el frontend, integrando IA para potenciar la eficiencia y generar valor medible.",
-    "cvUrl": "https://docs.google.com/document/d/1PZZuuXDW_RJsrh0ocegTQa-fEBGt_Fgd-H4Wd1ea_20/edit?usp=sharing",
+    "cvUrl": "https://drive.google.com/file/d/1Lo8zN71ATne2I0by7V90iifNIiR3RLmu/view?usp=sharing",
     "downloadCv": "DESCARGAR CV"
   },
   "skills": {

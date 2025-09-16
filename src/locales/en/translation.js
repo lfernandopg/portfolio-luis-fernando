@@ -17,7 +17,7 @@ const enTranslation = {
       "skills" : ["Fullstack Developer", "AI Engineer"]
     }, 
     "description": "Passionate about transforming ideas into smart products. Experienced in designing scalable applications and automating processes. My focus is on building robust software solutions, from the backend to the frontend, integrating AI to enhance efficiency and generate measurable value.",
-    "cvUrl": "https://docs.google.com/document/d/18iuE5EYUa96mnuMMLbIPUXln-GFmtpQTkLuLkf9CX50/edit?usp=sharing",
+    "cvUrl": "https://drive.google.com/file/d/1YLFsFH1aVlrnSzJqbviPEd3PTezGT22_/view?usp=sharing",
     "downloadCv": "DOWNLOAD RESUME",
     "stats": {
       "projects": "Proyectos",
