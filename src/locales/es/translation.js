@@ -118,8 +118,8 @@ const esTranslation = {
           "Proyectos interdisciplinarios: colaboración en soluciones tecnológicas con relevancia social."
         ],
         "skillsAcquired": [
-          "IA y Machine Learning (incluyendo Transformers y NLP)",
-          "Programación Avanzada (Python, Java, C++)",
+          "IA y Aprendizaje Automatico",
+          "Programación Avanzada",
           "Algoritmos y Estructuras de Datos",
           "Bases de Datos (SQL, NoSQL)",
           "Ingeniería de Software Ágil",
