@@ -1,0 +1,18 @@
+services:
+  react-portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./:/app
+      - react_portfolio_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+    container_name: react_portfolio
+
+volumes:
+  react_portfolio_modules:
+    name: react_portfolio_modules
