@@ -156,7 +156,7 @@ export const SkillsInfo = [
       current: true,
       jobType: jobTypes[0],
       jobMode: jobModes[1],
-      startDate: '2024-09-01',
+      startDate: '2024-09-02',
       endDate: null,
       skills: [
         "LangChain",
@@ -176,7 +176,7 @@ export const SkillsInfo = [
       current: false,      
       jobType: jobTypes[0],
       jobMode: jobModes[2],
-      startDate: '2023-07-01',
+      startDate: '2023-07-02',
       endDate: '2024-08-31',
       skills: [
         "React",
@@ -195,7 +195,7 @@ export const SkillsInfo = [
       current: false,      
       jobType: jobTypes[1],
       jobMode: jobModes[2],
-      startDate: '2023-02-01',
+      startDate: '2023-02-02',
       endDate: '2023-06-30',
       skills: [
         "Spring Boot",
