@@ -87,8 +87,8 @@ const esTranslation = {
     },
     "jobModes" : {
       "inPerson" : "Presencial", 
-      "remote" : "Remote", 
-      "hybrid" : "Hydrid"
+      "remote" : "Remoto", 
+      "hybrid" : "Hidrido"
     },
     "duration" : "duración",
     "mainAchievements" : "Logros principales",
