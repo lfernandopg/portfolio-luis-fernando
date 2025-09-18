@@ -93,7 +93,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'React', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
-      
+      { name: 'Next.js', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       //{ name: 'Bootstrap', logo: bootstrapLogo },
       { name: 'jQuery', logo: jqueryLogo },
@@ -106,7 +106,6 @@ export const SkillsInfo = [
       { name: 'Django', logo: djangoLogo },
       { name: 'Fast API', logo: fastapiLogo },
       //{ name: 'Node JS', logo: nodejsLogo },
-      { name: 'Next.js', logo: nextjsLogo },
       { name: 'Express.js', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
