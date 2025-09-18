@@ -105,7 +105,7 @@ export const SkillsInfo = [
       { name: 'Springboot', logo: springbootLogo },
       { name: 'Django', logo: djangoLogo },
       { name: 'Fast API', logo: fastapiLogo },
-      //{ name: 'Node JS', logo: nodejsLogo },
+      { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express.js', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
@@ -175,7 +175,7 @@ export const SkillsInfo = [
       img: nucleoeniiLogo,
       current: false,      
       jobType: jobTypes[0],
-      jobMode: jobModes[0],
+      jobMode: jobModes[2],
       startDate: '2023-08-15',
       endDate: '2024-09-25',
       skills: [
@@ -194,7 +194,7 @@ export const SkillsInfo = [
       img: nucleoeniiLogo,
       current: false,      
       jobType: jobTypes[1],
-      jobMode: jobModes[0],
+      jobMode: jobModes[2],
       startDate: '2023-02-15',
       endDate: '2023-07-25',
       skills: [
