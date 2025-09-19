@@ -104,7 +104,7 @@ const enTranslation = {
     "totalExperienceYears": "Years of Experience",
     "growth" : "Continuous professional growth",
     "callToAction" : "Interested in my professional experience?",
-    "action" : "See my projects",
+    "action" : "View my projects",
   },
   "education": {
     "title": "EDUCATION",
